@@ -1,0 +1,59 @@
+#include<stdio.h>
+int main()
+{
+    int MonthNumber;
+    printf("Write a Month Number from 1-12:");
+    scanf("%d", &MonthNumber);
+    if(MonthNumber==1)
+    {
+        printf("January");
+    }
+    if(MonthNumber==2)
+    {
+        printf("February");
+    }
+    if(MonthNumber==3)
+    {
+        printf("March");
+    }
+    if(MonthNumber==4)
+    {
+        printf("April");
+    }
+    if(MonthNumber==5)
+    {
+        printf("May");
+    }
+    if(MonthNumber==6)
+    {
+        printf("June");
+    }
+    if(MonthNumber==7)
+    {
+        printf("July");
+    }
+    if(MonthNumber==8)
+    {
+        printf("August");
+    }
+    if(MonthNumber==9)
+    {
+        printf("September");
+    }
+    if(MonthNumber==10)
+    {
+        printf("October");
+    }
+    if(MonthNumber==11)
+    {
+        printf("November");
+    }
+    if(MonthNumber==12)
+    {
+        printf("December");
+    }
+    if(MonthNumber>12)
+    {
+        printf("Month Number not valid");
+    }
+}    
